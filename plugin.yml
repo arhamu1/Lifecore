@@ -1,0 +1,66 @@
+name: LifeCore
+version: 1.0.0
+main: com.lifecore.LifeCore
+api-version: '1.21'
+author: you
+description: All-in-one Lifesteal SMP plugin
+
+commands:
+  bal:
+    description: Check balance
+    aliases: [balance, money]
+  baltop:
+    description: Top balances
+  pay:
+    description: Pay a player
+  eco:
+    description: Admin economy
+  sell:
+    description: Sell items
+  shop:
+    description: Open shop
+  ah:
+    description: Auction house
+    aliases: [auction]
+  rtp:
+    description: Random teleport
+    aliases: [randomtp, wild]
+  tpa:
+    description: Request teleport
+  tpaccept:
+    description: Accept teleport
+    aliases: [tpyes]
+  tpdeny:
+    description: Deny teleport
+    aliases: [tpno]
+  sethome:
+    description: Set a home
+  home:
+    description: Go to a home
+  delhome:
+    description: Delete a home
+  homes:
+    description: List homes
+  spawn:
+    description: Go to spawn
+  setspawn:
+    description: Set spawn
+  warp:
+    description: Go to a warp
+  warps:
+    description: List warps
+  setwarp:
+    description: Set a warp
+  delwarp:
+    description: Delete a warp
+  hearts:
+    description: Check hearts
+  withdraw:
+    description: Withdraw hearts as items
+  revive:
+    description: Revive a banned player
+
+permissions:
+  lifecore.admin:
+    description: Admin commands
+    default: op

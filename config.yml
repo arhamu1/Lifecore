@@ -1,0 +1,39 @@
+# LifeCore config
+start-balance: 100
+start-hearts: 10      # 10 hearts = 20 HP (vanilla)
+max-hearts: 20
+revive-hearts: 3
+max-homes: 3
+rtp-radius: 5000
+rtp-cooldown-seconds: 30
+ah-max-listings: 5
+ah-tax-percent: 5
+
+# buy = shop price (0 = not in shop), sell = /sell price (0 = can't sell)
+prices:
+  COBBLESTONE: {buy: 2, sell: 0.5}
+  STONE: {buy: 3, sell: 1}
+  OAK_LOG: {buy: 6, sell: 2}
+  DIRT: {buy: 1, sell: 0.2}
+  SAND: {buy: 2, sell: 0.5}
+  COAL: {buy: 10, sell: 3}
+  IRON_INGOT: {buy: 40, sell: 15}
+  GOLD_INGOT: {buy: 80, sell: 30}
+  DIAMOND: {buy: 400, sell: 150}
+  EMERALD: {buy: 250, sell: 90}
+  REDSTONE: {buy: 10, sell: 3}
+  LAPIS_LAZULI: {buy: 15, sell: 5}
+  NETHERITE_INGOT: {buy: 5000, sell: 1500}
+  COOKED_BEEF: {buy: 15, sell: 5}
+  BREAD: {buy: 8, sell: 2}
+  GOLDEN_APPLE: {buy: 300, sell: 80}
+  ENDER_PEARL: {buy: 60, sell: 20}
+  OBSIDIAN: {buy: 40, sell: 10}
+  ARROW: {buy: 4, sell: 1}
+  EXPERIENCE_BOTTLE: {buy: 50, sell: 15}
+  WHEAT: {buy: 0, sell: 1}
+  CARROT: {buy: 0, sell: 1}
+  POTATO: {buy: 0, sell: 1}
+  ROTTEN_FLESH: {buy: 0, sell: 0.3}
+  BONE: {buy: 0, sell: 1}
+  GUNPOWDER: {buy: 0, sell: 4}
